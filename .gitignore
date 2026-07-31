@@ -1,0 +1,7 @@
+# Holds a live API key in plain text -- never commit these.
+config.json
+.env
+
+__pycache__/
+*.pyc
+.venv/

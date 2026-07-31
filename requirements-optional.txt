@@ -1,0 +1,6 @@
+# Only needed to read iPhone HEIC photos. Install locally with:
+#     pip3 install -r requirements-optional.txt
+# Left out of requirements.txt because it has no wheels for the newest Python
+# versions, which makes a hosted build fail outright. The app handles its
+# absence -- HEIC files are simply reported as unreadable, everything else works.
+pillow-heif>=0.16
